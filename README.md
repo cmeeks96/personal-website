@@ -1,5 +1,15 @@
 Connor Meeks personal website: [connormeeks.com](https://www.connormeeks.com)
 
+Tech Stack (MERN)
+- MongoDB: database
+- Express.js: web application framework for Node.js
+- React.js: frontend javascript ibrary
+- Node.js: javascript runtime
+
+- MaterialUI: React component library
+
+
+
 To install node dependencies: "npm install"
 
 To start on local server: "npm start"
