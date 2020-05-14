@@ -23,4 +23,8 @@ To deploy to github:
 
 To deploy to google cloud server: "gcloud app deploy"
 
-
+install python venv within your project:
+(https://cloud.google.com/python/setup#linux_1)
+    cd connormeekscom
+    python3 -m venv venv
+    source venv/bin/activate
