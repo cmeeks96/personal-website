@@ -1,10 +1,6 @@
-// import {quantifiedUs} from '/components/quantifiedUs/quantifiedUs.py'
-
 const express = require('express');
 const app = express();
 const path = require('path');
-
-// app.use(app.router);
 
 // Path to static directory
 app.use(express.static('static'));
@@ -14,11 +10,6 @@ app.get('/', (req, res) => {
     // res.status(200).send("hello!").end();
     res.sendFile(path.join(__dirname + '/index.html'));
 });
-
-// app.get('/quantified-us', (req, res) => {
-//     // res.status(200).send("hello!").end();
-//     res.sendFile(path.join(__dirname + '/index.html'));
-// });
 
 // Start the server
 const PORT = process.env.PORT || 8080;

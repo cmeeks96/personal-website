@@ -1,13 +1,13 @@
 {
-  "name": "appengine-hello-world",
-  "description": "Simple Hello World Node.js sample for Google App Engine Standard Environment.",
+  "name": "connormeekscom",
+  "description": "Connor Meeks Personal Website",
   "version": "0.0.1",
   "private": true,
   "license": "Apache-2.0",
-  "author": "Google Inc.",
+  "author": "Connor Meeks",
   "repository": {
     "type": "git",
-    "url": "https://github.com/GoogleCloudPlatform/nodejs-docs-samples.git"
+    "url": "https://github.com/theconnormeeks/connormeekscom.git"
   },
   "engines": {
     "node": ">=8.0.0"
