@@ -8,7 +8,7 @@ app.use(express.static('static'));
 // Response
 app.get('/', (req, res) => {
     // res.status(200).send("hello!").end();
-    res.sendFile(path.join(__dirname + '/index.html'));
+    res.sendFile(path.join(__dirname + '/underConstruction.html'));
 });
 
 // Start the server

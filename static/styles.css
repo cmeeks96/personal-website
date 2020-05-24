@@ -1,0 +1,41 @@
+
+@font-face {
+  font-family: "SF Text Bold";
+  src: url(https://sf.abarba.me/SF-UI-Text-Bold.otf);
+}
+
+html {
+    margin-left: 10vmin;
+}
+
+* {
+    font-family: "SF Text Bold";
+}
+
+.myText {
+    font-size: 1.5vmax;
+    margin-bottom: 1vmax;
+}
+
+.myHeader {
+    font-size: 3vmax;
+    margin-bottom: 1vmax;
+}
+
+.button {
+    font-size: 1vmax;
+    background-color: #4885ED;
+    color: white;
+    border-radius:2.5vmax;
+    padding: 1vmax 2vmax;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.box {
+    position: absolute;
+    top: 35%;
+    width: 50%;
+}
