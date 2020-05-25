@@ -1,17 +1,15 @@
 html {
-    /* background-color: blue; */
+
 }
 
 body {
-    /* background-color: green; */
+
 }
 
 .myContent {
-    /* background-color: yellow; */
     margin-left: 10vmin;
     margin-right: 10vmin;
     margin-top: 5vmin;
-
 }
 
 .myButton {
@@ -38,7 +36,7 @@ body {
     font-size: 1em;
     }       
     .myHeader {
-    font-size: 1.8em;
+    font-size: 2.4em;
     }
     .myButton {
     font-size: 1em;
@@ -50,6 +48,23 @@ body {
     padding-top: 5em;
     padding-bottom: 5em;
     }   
+
+    .myContainerLeft {
+        width: 33%;
+        float: left;    
+    }
+    .myContainerLeftHalf{
+        width:50%;
+        float: left; 
+    }
+    .myContainerMiddle {
+        width: 33%;
+        float: left;
+    }
+    .myContainerRight {
+        width: 33%;
+        float: right;
+    }
 }
 /* desktop end */
 
@@ -66,7 +81,7 @@ body {
     font-size: 1em;
     }       
     .myHeader {
-    font-size: 1.8em;
+    font-size: 1.5em;
     }
     .myButton {
     font-size: 1em;
@@ -77,6 +92,19 @@ body {
     .mySpacer {
     padding-top: 5em;
     padding-bottom: 5em;
+    }
+
+    .myContainerLeft {
+        float: none;    
+    }
+    .myContainerLeftHalf{
+        float: none; 
+    }
+    .myContainerMiddle {
+        float: none;
+    }
+    .myContainerRight {
+        float: none;
     }
 }
 /* mobile end */
@@ -98,7 +126,7 @@ body {
         font-family: "SF Text Bold";
     }
 
-    *.myTextLight {
+    .myTextLight {
         font-family: "SF Text" !important;
     }
 
@@ -111,6 +139,13 @@ body {
         cursor: pointer;
         text-decoration: none;
         color: black;
+    }
+
+    .myTextLinkBlue {
+        margin-bottom: 2vmax;
+        cursor: pointer;
+        text-decoration: none;
+        color: #4885ED;
     }
 
     .myHeader {
@@ -140,6 +175,7 @@ body {
     }
 
     .myNavbar-right button {
+
     }
 
     .myLogo {
@@ -162,9 +198,14 @@ body {
 
 
 /* spacing */
-    .myContainer {
-        position: absolute;
-        width: 65%;
+    .myContainerLeft * {
+        padding: 2em 2em 0em 0em;
+    }
+    .myContainerMiddle * {
+        padding: 2em 2em 0em 0em;
+    }
+    .myContainerRight * {
+        padding: 2em 2em 0em 0em;
     }
 
     .mySpacer {
@@ -175,7 +216,11 @@ body {
 /* footer */
     footer {
         background-color: #FAFAFA;
-        /* background-color: red; */
-        /* padding-top: 20em; */
     }
 /* footer end */
+
+.iconBox img {
+    max-height: 3em;
+    max-width: auto;
+    padding: 0em;
+}
