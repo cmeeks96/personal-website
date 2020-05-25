@@ -1,16 +1,17 @@
 html {
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 body {
-    background-color: green;
+    /* background-color: green; */
 }
 
 .myContent {
+    /* background-color: yellow; */
     margin-left: 10vmin;
     margin-right: 10vmin;
     margin-top: 5vmin;
-    background-color: yellow;
+
 }
 
 .myButton {
@@ -173,8 +174,8 @@ body {
 
 /* footer */
     footer {
-        /* background-color: #FAFAFA; */
-        background-color: red;
-        padding-top: 10em;
+        background-color: #FAFAFA;
+        /* background-color: red; */
+        /* padding-top: 20em; */
     }
 /* footer end */
