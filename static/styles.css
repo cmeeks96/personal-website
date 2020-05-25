@@ -1,8 +1,69 @@
-
 @font-face {
   font-family: "SF Text Bold";
   src: url(https://sf.abarba.me/SF-UI-Text-Bold.otf);
 }
+
+
+/* Desktop */
+@media(min-width:768px){
+    .myNavbar a {
+    font-size: 1em;
+    }
+    .myText {
+    font-size: 1.5em;
+    }
+    .myText2 {
+    font-size: 1em;
+    }       
+    .myHeader {
+    font-size: 3em;
+    }
+    .myButton {
+    font-size: 1em;
+    }
+    .myNavbar-right button {
+        display: none;
+
+    }
+}
+
+/* Mobile */
+@media(max-width:767px){
+    .myNavbar a {
+    font-size: 1em;
+    }
+    .myText {
+    font-size: 1.2em;
+    }
+    .myText2 {
+    font-size: 1em;
+    }       
+    .myHeader {
+    font-size: 2.5em;
+    }
+    .myButton {
+    font-size: 1em;
+    }
+    .myNavbar-right a {
+        display: none;
+    }
+}
+
+/* hamburger nav */
+/* @media(max-width:767px){
+  header .breadcrumb {
+    display: none;
+  }
+}
+@media(min-width:768px){
+  header .navbar {
+    display: none;   
+  }
+} */
+
+
+
+
 
 html {
     margin-left: 10vmin;
@@ -14,41 +75,46 @@ html {
     font-family: "SF Text Bold";
 }
 
-.navbar {
+.myNavbar {
     overflow: hidden;
 }
 
-.navbar a {
+.myNavbar a {
     float: left;
     text-align: center;
     color: #707070;
-    font-size: 1.2vmax;
     text-decoration: none;
 }
 
-.navbar-right {
+.myNavbar-right {
     float: right;
 }
-.navbar-right a {
+.myNavbar-right a {
     padding: 2vmax 2vmax;
+}
+.myNavbar-right button {
+
 }
 
 
-.logo {
+.myLogo {
     max-width: 100%;
     max-height: 100%;
     max-height:5vmax; 
     max-width:5vmax;
+}
 
+.myContainer {
+    position: absolute;
+    padding-top: 10vmax;
+    width: 70%;
 }
 
 .myText {
-    font-size: 1.5vmax;
     margin-bottom: 1vmax;
 }
 
 .myText2 {
-    font-size: 1vmax;
     margin-bottom: 1vmax;
     cursor: pointer;
     text-decoration: none;
@@ -56,12 +122,10 @@ html {
 }
 
 .myHeader {
-    font-size: 3vmax;
     margin-bottom: 2vmax;
 }
 
-.button {
-    font-size: 1vmax;
+.myButton {
     background-color: #4885ED;
     color: white;
     border-radius:2.5vmax;
@@ -72,8 +136,13 @@ html {
     cursor: pointer;
 }
 
-.box {
-    position: absolute;
-    padding-top: 10vmax;
-    width: 70%;
+button {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
 }
+
