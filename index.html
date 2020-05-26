@@ -8,15 +8,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- responsive sizing (vm, vh, vmax, vmin)-->
   </head>
 
-    <body>
+    <body id="index">
         <div class="myContent">
         <!-- navbar -->
             <div class="myNavbar">
                 <a href="/"><div class="iconBox"><img src="/profileCircleTransparent.png"></div></a>
                 <div class="myNavbar-right">
                     <a href="ConnorMeeksResume.pdf" target="_blank">Resume</a>
-                    <a href="#">Portfolio</a>
-                    <a href="#">Contact</a>
+                    <a href="#Portfolio">Portfolio</a>
+                    <a href="#Contact">Contact</a>
                     <button><div class="iconBox"><img src="/menuCollapsed3.png"></div></button>
                 </div>
             </div>
@@ -28,28 +28,28 @@
                     <a class="myText myButton" target="_blank" href="ConnorMeeksResume.pdf">View My Resume</a>  
                     <br>
                     <br>
-                    <a class="myTextLink" href="#">👉 Contact Me</a>
+                    <a class="myTextLink" href="#Contact">👉 Contact Me</a>
                 </div>
                 <!-- about -->
                 <div class="mySpacer">
-                    <div class="myHeader">About</div>
+                    <div class="myHeader" id="About">About</div>
                         <div class="myContainerLeft">
                             <div class="iconBox"><img src="/iconComputer.png"></div>
                             <div class="myText">UI/UX Design</div>
                             <div class="myTextLight">Design clean and sophisticated user interfaces that promote a positive user experience</div>
-                            <div class="myTextLinkBlue">View Portfolio</div>
+                            <div><a href="#Portfolio" class="myTextLinkBlue">View Portfolio</a></div>
                         </div>
                         <div class="myContainerMiddle">
                             <div class="iconBox"><img src="/iconBlocks.png"></div>
                             <div class="myText">Software Engineering</div>
                             <div class="myTextLight">Develop web applications and services using full stack architectural methodologies</div>
-                            <div class="myTextLinkBlue">View Portfolio</div>                        
+                            <div><a href="#Portfolio" class="myTextLinkBlue">View Portfolio</a></div>
                         </div>
                         <div class="myContainerRight">
                             <div class="iconBox"><img src="/iconLight.png"></div>
                             <div class="myText">Data Science</div>
                             <div class="myTextLight">Investigate data sets to discover actionable insights and build reliable prediction models</div>
-                            <div class="myTextLinkBlue">View Portfolio</div>
+                            <div><a href="#Portfolio" class="myTextLinkBlue">View Portfolio</a></div>
                         </div>                        
                 </div>
 
@@ -59,7 +59,7 @@
 
                 <!-- portfolio -->
                 <div class="mySpacer">
-                    <div class="myHeader">Portfolio</div>
+                    <div class="myHeader" id="Portfolio">Portfolio</div>
                     <br>
                     <br>
                     <div class="myContainerLeftHalf">
@@ -67,15 +67,20 @@
                         <div class="myTextLight">Modular framework to collaborate on Quantified Self techniques. Designed to promote the transition from Quantified Self to Quantified Us, so that everyone can utilize data driven insights to quantitatively improve life.</div>
                     </div>
                     <div class="myContainerRight">
-                        <div class="myText">👉 Visit quantology.us</div>
+                        <div><a href="https://quantology.us" target="_blank" class="myTextLink">👉 Visit quantology.us</a></div>
                     </div>
                 </div>
 
                 <div class="mySpacer" id="desktopSpacer"></div>
+                
+                <br>
+                <br>
+                <br>
+                <br>
 
                 <!-- contact -->
                     <div class="mySpacer">
-                        <div class="myHeader">Contact</div>
+                        <div class="myHeader" id="Contact">Contact</div>
                         <br>
                         <br>
                         <br>
@@ -83,11 +88,11 @@
                                 <a href="mailto:theconnormeeks@gmail.com" class="myTextLink">theconnormeeks@gmail.com</a>
                             </div>
                             <div class="myContainerRightTwoThirds">
-                                    <a href="#" target="_blank"><div class="iconBoxSocial"><img src="/facebook.png"></div></a>
-                                    <a href="#" target="_blank"><div class="iconBoxSocial"><img src="/instagram.png"></div></a>
-                                    <a href="#" target="_blank"><div class="iconBoxSocial"><img src="/twitter.png"></div></a>
-                                    <a href="#" target="_blank"><div class="iconBoxSocial"><img src="/github.png"></div></a>
-                                    <a href="#" target="_blank"><div class="iconBoxSocial"><img src="/linkedin.png"></div></a>
+                                    <a href="https://facebook.com/theconnormeeks" target="_blank"><div class="iconBoxSocial"><img src="/facebook.png"></div></a>
+                                    <a href="https://instagram.com/theconnormeeks" target="_blank"><div class="iconBoxSocial"><img src="/instagram.png"></div></a>
+                                    <a href="https://twitter.com/theconnormeeks" target="_blank"><div class="iconBoxSocial"><img src="/twitter.png"></div></a>
+                                    <a href="https://github.com/theconnormeeks" target="_blank"><div class="iconBoxSocial"><img src="/github.png"></div></a>
+                                    <a href="https://linkedin.com/in/theconnormeeks" target="_blank"><div class="iconBoxSocial"><img src="/linkedin.png"></div></a>
                             </div>
                     </div>
                     <div class="mySpacer"></div>

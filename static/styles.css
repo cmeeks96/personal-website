@@ -1,9 +1,9 @@
 html {
-
+  scroll-behavior: smooth;
 }
 
 body {
-    background: linear-gradient(transparent 80%,#F0F0F0 20%) no-repeat;
+
 }
 
 .myContent {
@@ -37,7 +37,7 @@ body {
 
 /* desktop */
 @media(min-width:768px){
-    body {
+    #index {
         background: linear-gradient(transparent 78%,#F0F0F0 22%) no-repeat;
     }
 
@@ -90,7 +90,7 @@ body {
 
 /* mobile */
 @media(max-width:767px){
-    body {
+    #index {
         background: linear-gradient(transparent 82%,#F0F0F0 18%) no-repeat;
     }
     .myNavbar a {
