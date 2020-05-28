@@ -2,8 +2,8 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
-
+body *{
+ text-decoration: none;
 }
 
 .fadeScroll {
