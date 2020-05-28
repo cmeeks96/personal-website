@@ -6,6 +6,10 @@ body {
 
 }
 
+.fade {
+  opacity: 1;
+}
+
 .myContent {
     margin-left: 10vmin;
     margin-right: 10vmin;
