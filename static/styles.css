@@ -42,16 +42,22 @@ body {
     }
 
     .myNavbar a {
-        font-size: 1em;
+        font-size: 1.2em;
     }
     .myText {
-        font-size: 1em;
+        font-size: 1.5em;
     }
-    .myText2 {
-        font-size: 1em;
+    .myTextLight {
+        font-size: 1.5em;
     }       
+    .myTextLink {
+        font-size: 1.5em;
+    }  
+    .myTextLinkBlue {
+        font-size: 1.5em;
+    }  
     .myHeader {
-        font-size: 2.4em;
+        font-size: 3em;
     }
     .myButton {
         font-size: 1em;
@@ -99,9 +105,15 @@ body {
     .myText {
         font-size: 1em;
     }
-    .myText2 {
+    .myTextLight {
         font-size: 1em;
-    }       
+    }      
+    .myTextLink {
+        font-size: 1em;
+    }
+    .myTextLinkBlue {
+        font-size: 1em;
+    }        
     .myHeader {
         font-size: 1.5em;
     }
