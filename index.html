@@ -4,109 +4,121 @@
 
   <head>
     <title>Connor Meeks</title>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="/bootstrap_4.1.3_custom/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="hamburgerAnimation.css">
-    <script type="text/javascript" src="hamburgerAnimation.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- responsive sizing (vm, vh, vmax, vmin)-->
   </head>
 
     <body id="index">
         <div class="myContent">
 
-        <!-- navbar -->
+            <!-- navbar -->
             <div class="myNavbar">
                 <a href="/"><div class="iconBox"><img src="/profileCircleTransparent.png"></div></a>
                 <div class="myNavbar-right">
-                    <a href="ConnorMeeksResume.pdf" target="_blank">Resume</a>
-                    <a href="#Portfolio">Portfolio</a>
-                    <a href="#Contact">Contact</a>
                     <!-- hamburger -->
-                    
-                    
-                    <button><div class="iconBox"><img src="/menuCollapsed3.png"></div></button>
+                    <button class="hamburgerMenu" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        <div class="iconBox"><img src="/menuCollapsed3.png"></div>
+                    </button>
                 </div>
             </div>
 
-                <!-- main -->
-                <div class="mySpacer">
-                    <div class="myText">Hi, my name is Connor Meeks</div>
-                    <div class="myHeader">I’m a Software Engineer and Data Scientist with a background in Electrical Engineering</div>
-                    <a class="myText myButton" target="_blank" href="ConnorMeeksResume.pdf">View My Resume</a>  
-                    <br>
-                    <br>
-                    <a class="myTextLink" href="#Contact">👉 Contact Me</a>
+            <!-- hamburger -->
+            <div class="collapse" id="collapseExample">
+                <div style="text-align:center; padding-top:3em;">
+                    <p><a class="hamburgerMenu" href="ConnorMeeksResume.pdf" target="_blank">Resume</a></p>
+                    <p><a class="hamburgerMenu" href="#Portfolio">Portfolio</a></p>
+                    <p><a class="hamburgerMenu" href="#Contact">Contact</a></p>             
                 </div>
-                <!-- about -->
-                <div class="mySpacer">
-                    <div class="myHeader" id="About">About</div>
-                        <div class="myContainerLeft">
-                            <div class="iconBox"><img src="/iconComputer.png"></div>
-                            <div class="myText">UI/UX Design</div>
-                            <div class="myTextLight">Design clean and sophisticated user interfaces that promote a positive user experience</div>
-                            <div><a href="#Portfolio" class="myTextLinkBlue">View Portfolio</a></div>
-                        </div>
-                        <div class="myContainerMiddle">
-                            <div class="iconBox"><img src="/iconBlocks.png"></div>
-                            <div class="myText">Software Engineering</div>
-                            <div class="myTextLight">Develop web applications and services using full stack architectural methodologies</div>
-                            <div><a href="#Portfolio" class="myTextLinkBlue">View Portfolio</a></div>
-                        </div>
-                        <div class="myContainerRight">
-                            <div class="iconBox"><img src="/iconLight.png"></div>
-                            <div class="myText">Data Science</div>
-                            <div class="myTextLight">Investigate data sets to discover actionable insights and build reliable prediction models</div>
-                            <div><a href="#Portfolio" class="myTextLinkBlue">View Portfolio</a></div>
-                        </div>                        
-                </div>
+            </div>
 
-                
-                <div class="mySpacer" id="desktopSpacer"></div>
-                <div class="mySpacer" id="desktopSpacer"></div>
-                <div class="mySpacer" id="desktopSpacer"></div>
+            <!-- main -->
+            <div class="mySpacer">
+                <div class="myText">Hi, my name is Connor Meeks</div>
+                <div class="myHeader">I’m a Software Engineer and Data Scientist with a background in Electrical Engineering</div>
+                <a class="myText myButton" target="_blank" href="ConnorMeeksResume.pdf">View My Resume</a>  
+                <br>
+                <br>
+                <a class="myTextLink" href="#Contact">👉 Contact Me</a>
+            </div>
 
-
-                <!-- portfolio -->
-                <div class="mySpacer">
-                    <div class="myHeader" id="Portfolio">Portfolio</div>
-                    <br>
-                    <br>
-                    <div class="myContainerLeftHalf">
-                        <div class="myText">Quantology: A Quantified Us Community</div>
-                        <div class="myTextLight">Modular framework to collaborate on Quantified Self techniques. Designed to promote the transition from Quantified Self to Quantified Us, so that everyone can utilize data driven insights to quantitatively improve life.</div>
+            <!-- about -->
+            <div class="mySpacer">
+                <div class="myHeader" id="About">About</div>
+                    <div class="myContainerLeft">
+                        <div class="iconBox"><img src="/iconComputer.png"></div>
+                        <div class="myText">UI/UX Design</div>
+                        <div class="myTextLight">Design clean and sophisticated user interfaces that promote a positive user experience</div>
+                        <div><a href="#Portfolio" class="myTextLinkBlue">View Portfolio</a></div>
+                    </div>
+                    <div class="myContainerMiddle">
+                        <div class="iconBox"><img src="/iconBlocks.png"></div>
+                        <div class="myText">Software Engineering</div>
+                        <div class="myTextLight">Develop web applications and services using full stack architectural methodologies</div>
+                        <div><a href="#Portfolio" class="myTextLinkBlue">View Portfolio</a></div>
                     </div>
                     <div class="myContainerRight">
-                        <div><a href="https://quantology.us" target="_blank" class="myTextLink">👉 Visit quantology.us</a></div>
-                    </div>
+                        <div class="iconBox"><img src="/iconLight.png"></div>
+                        <div class="myText">Data Science</div>
+                        <div class="myTextLight">Investigate data sets to discover actionable insights and build reliable prediction models</div>
+                        <div><a href="#Portfolio" class="myTextLinkBlue">View Portfolio</a></div>
+                    </div>                        
+            </div>
+
+            <div class="mySpacer" id="desktopSpacer"></div>
+            <div class="mySpacer" id="desktopSpacer"></div>
+            <div class="mySpacer" id="desktopSpacer"></div>
+
+            <!-- portfolio -->
+            <div class="mySpacer">
+                <div class="myHeader" id="Portfolio">Portfolio</div>
+                <br>
+                <br>
+                <div class="myContainerLeftHalf">
+                    <div class="myText">Quantology: A Quantified Us Community</div>
+                    <div class="myTextLight">Modular framework to collaborate on Quantified Self techniques. Designed to promote the transition from Quantified Self to Quantified Us, so that everyone can utilize data driven insights to quantitatively improve life.</div>
                 </div>
+                <div class="myContainerRight">
+                    <div><a href="https://quantology.us" target="_blank" class="myTextLink">👉 Visit quantology.us</a></div>
+                </div>
+            </div>
 
-                <div class="mySpacer" id="desktopSpacer"></div>
-                <div class="mySpacer" id="desktopSpacer"></div>
+            <div class="mySpacer" id="desktopSpacer"></div>
+            <div class="mySpacer" id="desktopSpacer"></div>
+            <div class="mySpacer"></div>
+<!-- 
+            <br>
+            <br>
+            <br>
+            <br> -->
 
-                <br>
-                <br>
-                <br>
-                <br>
-
-                <!-- contact -->
-                    <div class="mySpacer">
-                        <div class="myHeader" id="Contact">Contact</div>
-                        <br>
-                        <br>
-                        <br>
-                            <div class="myContainerLeft">
-                                <a href="mailto:theconnormeeks@gmail.com" class="myTextLink">theconnormeeks@gmail.com</a>
-                            </div>
-                            <div class="myContainerRightTwoThirds">
-                                    <a href="https://facebook.com/theconnormeeks" target="_blank"><div class="iconBoxSocial"><img src="/facebook.png"></div></a>
-                                    <a href="https://instagram.com/theconnormeeks" target="_blank"><div class="iconBoxSocial"><img src="/instagram.png"></div></a>
-                                    <a href="https://twitter.com/theconnormeeks" target="_blank"><div class="iconBoxSocial"><img src="/twitter.png"></div></a>
-                                    <a href="https://github.com/theconnormeeks" target="_blank"><div class="iconBoxSocial"><img src="/github.png"></div></a>
-                                    <a href="https://linkedin.com/in/theconnormeeks" target="_blank"><div class="iconBoxSocial"><img src="/linkedin.png"></div></a>
-                            </div>
-                    </div>
-                    <div class="mySpacer"></div>
+            <!-- contact -->
+                <div class="mySpacer">
+                    <div class="myHeader" id="Contact">Contact</div>
+                    <br>
+                    <br>
+                    <br>
+                        <div class="myContainerLeft">
+                            <a href="mailto:theconnormeeks@gmail.com" class="myTextLink">theconnormeeks@gmail.com</a>
+                        </div>
+                        <div class="myContainerRightTwoThirds">
+                                <a href="https://facebook.com/theconnormeeks" target="_blank"><div class="iconBoxSocial"><img src="/facebook.png"></div></a>
+                                <a href="https://instagram.com/theconnormeeks" target="_blank"><div class="iconBoxSocial"><img src="/instagram.png"></div></a>
+                                <a href="https://twitter.com/theconnormeeks" target="_blank"><div class="iconBoxSocial"><img src="/twitter.png"></div></a>
+                                <a href="https://github.com/theconnormeeks" target="_blank"><div class="iconBoxSocial"><img src="/github.png"></div></a>
+                                <a href="https://linkedin.com/in/theconnormeeks" target="_blank"><div class="iconBoxSocial"><img src="/linkedin.png"></div></a>
+                        </div>
+                </div>
+                <div class="mySpacer"></div>
 
         </div> <!-- myContent -->
+
+    <!-- Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> -->
+    <script src="/bootstrap_4.1.3_custom/bootstrap.min.js" ></script>
 
     </body>
 

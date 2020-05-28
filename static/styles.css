@@ -1,5 +1,5 @@
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -23,16 +23,14 @@ body {
     cursor: pointer;
 }
 
-.iconBox img {
-    max-height: 3em;
-    max-width: auto;
-    padding: 0em;
-}
-.iconBoxSocial img {
-    max-height: 1.8em;
-    max-width: auto;
-    padding: 0em;
-}
+    .iconBox img {
+        padding: 0em;
+    }
+    .iconBoxSocial img {
+        padding: 0em;
+    }
+
+
 
 
 /* desktop */
@@ -41,9 +39,6 @@ body {
         background: linear-gradient(transparent 78%,#F0F0F0 22%) no-repeat;
     }
 
-    .myNavbar a {
-        font-size: 1.2em;
-    }
     .myText {
         font-size: 1.5em;
     }
@@ -56,15 +51,26 @@ body {
     .myTextLinkBlue {
         font-size: 1.5em;
     }  
+
+    .iconBox img {
+        max-height: 4em;
+        max-width: auto;
+    }
+    .iconBoxSocial img {
+        max-height: 1.8em;
+        max-width: auto;
+    }
+    .hamburgerMenu {
+        font-size: 1.3em;
+    }
+
     .myHeader {
         font-size: 3em;
     }
     .myButton {
-        font-size: 1em;
+        font-size: 1.2em;
     }
-    .myNavbar-right button {
-        display: none;
-    }
+
     .mySpacer {
         padding-top: 5em;
         padding-bottom: 5em;
@@ -99,9 +105,7 @@ body {
     #index {
         background: linear-gradient(transparent 82%,#F0F0F0 18%) no-repeat;
     }
-    .myNavbar a {
-        font-size: 1em;
-    }
+
     .myText {
         font-size: 1em;
     }
@@ -114,14 +118,24 @@ body {
     .myTextLinkBlue {
         font-size: 1em;
     }        
+
+    .iconBox img {
+    max-height: 3em;
+    max-width: auto;
+    }
+    .iconBoxSocial img {
+        max-height: 1.8em;
+        max-width: auto;
+    }
+    .hamburgerMenu {
+        font-size: 1em;
+    }
+
     .myHeader {
         font-size: 1.5em;
     }
     .myButton {
         font-size: 1em;
-    }
-    .myNavbar-right a {
-        display: none;
     }
 
     .mySpacer {
@@ -170,6 +184,7 @@ body {
 
     .myTextLight {
         font-family: "SF Text" !important;
+        padding-top: 0em !important;
     }
 
     .myText {
@@ -179,14 +194,12 @@ body {
     .myTextLink {
         margin-bottom: 2vmax;
         cursor: pointer;
-        text-decoration: none;
         color: black;
     }
 
     .myTextLinkBlue {
         margin-bottom: 2vmax;
         cursor: pointer;
-        text-decoration: none;
         color: #4885ED;
     }
 
@@ -205,7 +218,6 @@ body {
         float: left;
         text-align: center;
         color: #707070;
-        text-decoration: none;
         padding-top: .8vmax;
 
     }
@@ -222,13 +234,6 @@ body {
 
     }
 
-    .myLogo {
-        max-width: 100%;
-        max-height: 100%;
-        max-height:5vmax; 
-        max-width:5vmax;
-    }
-
     button {
         background: none;
         color: inherit;
@@ -237,6 +242,9 @@ body {
         font: inherit;
         cursor: pointer;
         outline: inherit;
+    }
+    .hamburgerMenu {
+        color: #707070;
     }
 /* navbar end */
 
