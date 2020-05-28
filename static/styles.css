@@ -6,8 +6,8 @@ body {
 
 }
 
-.fade {
-  opacity: 1;
+.fadeScroll {
+  opacity: 0;
 }
 
 .myContent {
