@@ -183,11 +183,11 @@ body *{
     }
 
     * {
-        font-family: "SF Text Bold";
+        font-family: 'Roboto';
     }
 
     .myTextLight {
-        font-family: "SF Text" !important;
+        font-family: 'Roboto' !important;
         padding-top: 0em !important;
     }
 
