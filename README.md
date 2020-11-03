@@ -1,2 +1,1 @@
-Connor Meeks personal website: [connormeeks.com](https://www.connormeeks.com)
-
+Personal website: [connormeeks.com](https://www.connormeeks.com)
