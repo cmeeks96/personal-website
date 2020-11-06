@@ -1,0 +1,55 @@
+@font-face {
+    font-family: SF-Pro-Display-Regular;
+    src: url("./San-Fransisco-Pro-Fonts/SF-Pro-Display-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: SF-Pro-Display-Bold;
+    src: url("./San-Fransisco-Pro-Fonts/SF-Pro-Display-Bold.otf") format("opentype");
+}
+
+html {
+    /* background-color: #f3f3f3; */
+}
+
+* {
+    font-family: SF-Pro-Display-Regular;
+}
+
+.bold {
+    font-family: SF-Pro-Display-Bold;
+}
+
+.grey {
+    color: #999999;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 90vh;
+}
+
+.profile {
+    width:33%;
+}
+
+.card {
+    margin:10px;
+    display:flex;
+    flex-direction: column;
+    padding-top:50px;
+    padding-bottom:50px;
+    /* border: 1px solid #cccccc; */
+    border-radius: 12px;
+    background-color:white;
+}
+
