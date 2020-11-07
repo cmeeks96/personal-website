@@ -1,0 +1,43 @@
+.switch{
+    width: 50px;
+    height: 25px;
+    position: relative;
+    display: inline-block;
+}
+input{
+    display:none ;
+}
+.round{
+    border-radius: 24px;
+}
+.slider{
+    background: #ccc;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: all .4s;
+    cursor: pointer;
+}
+/* dots */
+.slider:after{
+    content: '';
+    width: 15px;
+    height: 15px;
+    display: block;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    transition: all .4s;
+}
+
+/* Select the radio button to change the style */
+input:checked+.slider{
+    background: #2196F3;
+}
+input:checked+.slider:after{
+    transform: translateX(26px);
+}

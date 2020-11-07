@@ -14,9 +14,6 @@ app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname + '/index.html'));
 });
 
-// app.get('*', (req, res) => {
-//     res.sendFile(path.join(__dirname + '/404.html'));
-// });
 
 // Start the server
 const PORT = process.env.PORT || 8080;

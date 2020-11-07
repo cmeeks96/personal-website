@@ -4,9 +4,10 @@
   <head>
     <title>Connor Meeks</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="switch.css">
     <link rel="icon" href="/profile.png">
   </head>
-    <body>   
+    <body id="body" class="darkmode">   
         <div class = "center">
             <div class = "card">
                 <div><img src="/profile.png" class="profile"></div>
@@ -21,10 +22,23 @@
                     <a href="https://music.apple.com/profile/theconnormeeks">🎵 &#160; Music</a><br>
                     <a href="https://www.notion.so/theconnormeeks/Books-0d2a809633174fa39bb220e83a571ffd">📚 &#160; Books</a><br>
                     <a target="_blank" href="https://quantology.us">📈 &#160; Quantology</a><br>
+                    <br>
+                    <div style="padding-left:20px;"">
+                        <label class="switch">
+                            <input type="checkbox" name="dark_light" onclick="toggleDarkLight()">
+                            <div class="slider round"></div>
+                        </label>
+                    </div>
                 </div>
             </div>
-
-            
         </div>
     </body>
 </html>
+
+<script>
+    function toggleDarkLight() {
+    var body = document.getElementById("body");
+    var currentClass = body.className;
+    body.className = currentClass == "dark-mode" ? "light-mode" : "dark-mode";
+    }
+</script>
