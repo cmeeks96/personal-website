@@ -8,15 +8,6 @@
     src: url("./San-Fransisco-Pro-Fonts/SF-Pro-Display-Bold.otf") format("opentype");
 }
 
-body.dark-mode {
-    background-color:#1a1a1a;
-    color: white;
-}
-
-body.light-mode {
-    background-color: white;
-}
-
 * {
     font-family: SF-Pro-Display-Regular;
 }

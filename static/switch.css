@@ -1,3 +1,29 @@
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color:#121212;
+        color: white;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: white;
+        color: #121212;
+    }
+}
+
+body.dark-mode {
+    background-color:#121212;
+    color: white;
+}
+
+body.light-mode {
+    background-color: white;
+    color: #121212;
+}
+
+/* --- */
+
 .switch{
     width: 50px;
     height: 25px;
