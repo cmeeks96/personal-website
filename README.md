@@ -5,6 +5,7 @@ Make Changes:
 - git status
 - git add *
 - git commit -m "Message"
+- git push origin master
 
 Deploy:
 - gcloud app deploy
