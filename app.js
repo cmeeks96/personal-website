@@ -20,10 +20,13 @@ app.get('/', (req, res) => {
     //     res.sendFile(path.join(__dirname + '/index.html'));
     // });
 
-app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname + '/static/404.html'));
-});
+// app.get('*', (req, res) => {
+//     res.sendFile(path.join(__dirname + '/static/404.html'));
+// });
 
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname + '/index.html'));
+});
 
 // Start the server
 const PORT = process.env.PORT || 8080;
@@ -33,4 +36,3 @@ app.listen(PORT, () => {
 });
 
 module.exports = app;
-
