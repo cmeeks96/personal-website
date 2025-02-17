@@ -6,6 +6,7 @@ Make Changes:
 - git add *
 - git commit -m "Message"
 - git push origin master
+- Password = personal access token
 
 Deploy:
 - gcloud app deploy
