@@ -1,272 +1,63 @@
-html {
-    scroll-behavior: smooth;
+@font-face {
+    font-family: SF-Pro-Display-Regular;
+    src: url("./San-Fransisco-Pro-Fonts/SF-Pro-Display-Regular.otf") format("opentype");
 }
 
-body *{
- text-decoration: none;
+@font-face {
+    font-family: SF-Pro-Display-Bold;
+    src: url("./San-Fransisco-Pro-Fonts/SF-Pro-Display-Bold.otf") format("opentype");
 }
 
-.fadeScroll {
-  opacity: 0;
-}
-
-.myContent {
-    margin-left: 10vmin;
-    margin-right: 10vmin;
-    margin-top: 5vmin;
-}
-
-.myButton {
-    background-color: #4885ED;
-    color: white;
-    border-radius:2.5em;
-    padding: 1em 2em;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
-}
-
-    .iconBox img {
-        padding: 0em;
-    }
-    .iconBoxSocial img {
-        padding: 0em;
-    }
-
-
-
-
-/* desktop */
-@media(min-width:768px){
-    #index {
-        background: linear-gradient(transparent 78%,#F0F0F0 22%) no-repeat;
-    }
-
-    .myText {
-        font-size: 1.5em;
-    }
-    .myTextLight {
-        font-size: 1.5em;
-    }       
-    .myTextLink {
-        font-size: 1.5em;
-    }  
-    .myTextLinkBlue {
-        font-size: 1.5em;
-    }  
-
-    .iconBox img {
-        max-height: 4em;
-        max-width: auto;
-    }
-    .iconBoxSocial img {
-        max-height: 1.8em;
-        max-width: auto;
-    }
-    .hamburgerMenu {
-        font-size: 1.3em;
-    }
-
-    .myHeader {
-        font-size: 3em;
-    }
-    .myButton {
-        font-size: 1.2em;
-    }
-
-    .mySpacer {
-        padding-top: 5em;
-        padding-bottom: 5em;
-    }   
-
-    .myContainerLeft {
-        width: 33%;
-        float: left;    
-    }
-    .myContainerLeftHalf{
-        width:50%;
-        float: left; 
-    }
-    .myContainerMiddle {
-        width: 33%;
-        float: left;
-    }
-    .myContainerRight {
-        width: 33%;
-        float: right;
-    }
-    .myContainerRightTwoThirds {
-        width: 66%;
-        float: right;
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #1e1e1e;
+        color: white;
     }
 }
-/* desktop end */
 
-
-/* mobile */
-@media(max-width:767px){
-    #index {
-        background: linear-gradient(transparent 82%,#F0F0F0 18%) no-repeat;
-    }
-
-    .myText {
-        font-size: 1em;
-    }
-    .myTextLight {
-        font-size: 1em;
-    }      
-    .myTextLink {
-        font-size: 1em;
-    }
-    .myTextLinkBlue {
-        font-size: 1em;
-    }        
-
-    .iconBox img {
-    max-height: 3em;
-    max-width: auto;
-    }
-    .iconBoxSocial img {
-        max-height: 1.8em;
-        max-width: auto;
-    }
-    .hamburgerMenu {
-        font-size: 1em;
-    }
-
-    .myHeader {
-        font-size: 1.5em;
-    }
-    .myButton {
-        font-size: 1em;
-    }
-
-    .mySpacer {
-        padding-top: 5em;
-        padding-bottom: 5em;
-    }
-    #desktopSpacer {
-        display: none;
-    }
-
-    .myContainerLeft {
-        float: none;    
-    }
-    .myContainerLeftHalf{
-        float: none; 
-    }
-    .myContainerMiddle {
-        float: none;
-    }
-    .myContainerRight {
-        float: none;
-    }
-    .myContainerRightTwoThirds {
-        float: left;
-        padding-top: 5em;
-    }
-}
-/* mobile end */
-
-
-/* fonts */
-    @font-face {
-        font-family: "SF Text Bold";
-        src: url(https://sf.abarba.me/SF-UI-Text-Bold.otf);
-    }
-
-    @font-face {
-        font-family: "SF Text";
-        font-weight: 400;
-        src: url("https://sf.abarba.me/SF-UI-Text-Regular.otf");
-    }
-
-    * {
-        font-family: "SF Text Bold";
-    }
-
-    .myTextLight {
-        font-family: "SF Text" !important;
-        padding-top: 0em !important;
-    }
-
-    .myText {
-        margin-bottom: 2vmax;
-    }
-
-    .myTextLink {
-        margin-bottom: 2vmax;
-        cursor: pointer;
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: white;
         color: black;
     }
+}
 
-    .myTextLinkBlue {
-        margin-bottom: 2vmax;
-        cursor: pointer;
-        color: #4885ED;
-    }
-
-    .myHeader {
-        margin-bottom: 2vmax;
-    }
-/* fonts end */
+* {
+    font-family: Helvetica;
+}
 
 
-/* navbar */
-    .myNavbar {
-        overflow: hidden;
-    }
+.grey {
+    color: #999999;
+}
 
-    .myNavbar a {
-        float: left;
-        text-align: center;
-        color: #707070;
-        padding-top: .8vmax;
+a {
+    text-decoration: none;
+    color: inherit;
+}
 
-    }
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* min-height: 50vh; */
+}
 
-    .myNavbar-right {
-        float: right;
-    }
+.profile {
+    width:15%;
+}
 
-    .myNavbar-right a {
-        padding: 2vmax 2vmax;
-    }
-
-    .myNavbar-right button {
-
-    }
-
-    button {
-        background: none;
-        color: inherit;
-        border: none;
-        padding: 0;
-        font: inherit;
-        cursor: pointer;
-        outline: inherit;
-    }
-    .hamburgerMenu {
-        color: #707070;
-    }
-/* navbar end */
+.card {
+    margin:10px;
+    display:flex;
+    flex-direction: column;
+    padding-top:50px;
+    padding-bottom:50px;
+    /* border: 1px solid #cccccc; */
+    border-radius: 12px;
+    /* background-color:white; */
+}
 
 
-/* container */
-    .myContainerLeft * {
-        padding: 2em 2em 0em 0em;
-    }
-    .myContainerLeftHalf * {
-    }
-    .myContainerMiddle * {
-        padding: 2em 2em 0em 0em;
-    }
-    .myContainerRight * {
-        padding: 2em 2em 0em 0em;
-    }
-    .myContainerRightTwoThirds * {
-        padding: 0em 2vmax 0em 0em;
-        float:right;
-    }
-/* container end */
