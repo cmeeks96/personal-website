@@ -1,20 +1,3 @@
-@font-face {
-    font-family: SF-Pro-Display-Regular;
-    src: url("./San-Fransisco-Pro-Fonts/SF-Pro-Display-Regular.otf") format("opentype");
-}
-
-@font-face {
-    font-family: SF-Pro-Display-Bold;
-    src: url("./San-Fransisco-Pro-Fonts/SF-Pro-Display-Bold.otf") format("opentype");
-}
-
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color: #1e1e1e;
-        color: white;
-    }
-}
-
 @media (prefers-color-scheme: light) {
     body {
         background-color: white;
@@ -22,13 +5,16 @@
     }
 }
 
-* {
-    font-family: Helvetica;
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+        color: white;
+    }
 }
 
-
-.grey {
-    color: #999999;
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 30px;
 }
 
 a {
@@ -37,27 +23,6 @@ a {
 }
 
 .center {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    /* min-height: 50vh; */
-}
-
-.profile {
-    width:15%;
-}
-
-.card {
-    margin:10px;
-    display:flex;
-    flex-direction: column;
     padding-top:50px;
-    padding-bottom:50px;
-    /* border: 1px solid #cccccc; */
-    border-radius: 12px;
-    /* background-color:white; */
+    text-align: center;
 }
-
-

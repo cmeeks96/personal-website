@@ -7,7 +7,7 @@
   "author": "Connor Meeks",
   "repository": {
     "type": "git",
-    "url": "https://github.com/theconnormeeks/connormeekscom.git"
+    "url": "https://github.com/cmeeks96/personal-website.git"
   },
   "engines": {
     "node": ">=8.0.0"
