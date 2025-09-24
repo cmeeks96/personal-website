@@ -2,12 +2,12 @@ const express = require('express');
 const app = express();
 const path = require('path');
 
-// Static directory
-app.use(express.static('static'));
+// Serve static files (so the PDF can be accessed)
+app.use(express.static(path.join(__dirname, 'static')));
 
-// Router
-app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname + '/index.html'));
+// Redirect root URL directly to your PDF
+app.get('/', (req, res) => {
+  res.redirect('/connormeeks.pdf');
 });
 
 // Start the server
